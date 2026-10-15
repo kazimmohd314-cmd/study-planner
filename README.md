@@ -1,32 +1,99 @@
-# React + TypeScript + Vite
+# Study Planner 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal study planning and productivity web app designed to organize academic tasks, manage study schedules, and track daily progress in one place.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Study Planner](https://study-planner-dusky-iota.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Task Management** — Add, edit, and delete study tasks.
+- **Subject & Schedule Management** — Organize academic subjects and plan study sessions.
+- **Progress Dashboard** — Track study activity and daily progress.
+- **GATE Preparation** — Dedicated study planning features for exam preparation.
+- **Placement Preparation** — Organize placement-related preparation.
+- **Question Bank & Revision** — Manage practice questions and revision activities.
+- **Pomodoro Timer** — Structure study sessions with focused work intervals.
+- **Local Data Storage** — Keep study data in browser storage.
+- **Backup & Restore** — Export and import supported data backups.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- Browser Local Storage
+- CSS
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Getting Started
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kazimmohd314-cmd/study-planner.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd study-planner
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 🏗️ Production Build
+
+To create a production build:
+
+```bash
+npm run build
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🔒 Data & Privacy
+
+The application uses browser-based local storage for local persistence. Data may be limited to the current browser and device and can be lost if browser data is cleared.
+
+This project does not currently provide account-based authentication or cloud synchronization.
+
+Avoid storing sensitive personal information in the application.
+
+## 🎯 Project Goal
+
+The goal of this project is to build a practical study management tool for organizing academic responsibilities, maintaining study consistency, and tracking preparation progress.
+
+## 🔮 Future Improvements
+
+- Improve data validation and error handling.
+- Add automated tests for task management and progress calculations.
+- Improve accessibility and mobile usability.
+- Enhance backup validation and recovery.
+- Explore optional cloud synchronization.
+
+## 👨‍💻 Author
+
+**Mohd Kazim**
+
+- GitHub: [@kazimmohd314-cmd](https://github.com/kazimmohd314-cmd)
+
+---
+
+If you find an issue or have a suggestion, feel free to open a GitHub issue.
